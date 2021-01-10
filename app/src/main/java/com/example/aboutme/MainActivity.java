@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
                 .load("https://unsplash.com/photos/zyvASd8PM9A/download?force=true&w=640")
          .into(imageView);
     }
-
-    @Override
+    //Esto genera los tipicos tres puntos, los eliminamos porque no los usaremos.
+   /* @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_scrolling, menu);
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
-    }
+    }*/
     //   TODO 1  Arreglar la interface grafica respecto a lo solicitado
     //  TODO 2 Tener una vista Landscape para la MainActivity
     //  TODO 3 Opcional, Utilizar ViewBinding en toda la MainActivit
